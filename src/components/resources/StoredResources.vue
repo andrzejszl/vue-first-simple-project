@@ -8,7 +8,7 @@
 import ResourceCard from './ResourceCard.vue';
     export default {
         components: {ResourceCard},
-        props: ['items']
+        inject: ['items']
     }
 </script>
 
